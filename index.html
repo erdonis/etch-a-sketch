@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Etch a Sketch!</h1>
+    
+    <div class="container">
+        <div class="content">
+            <div class="buttons">
+                <button id="pen"><img src="images/pencil.png"></button>
+                <button id="eraser"><img src="images/eraser.png"></button>
+            </div>
+            <button id="clear">Clear</button>
+            <div id="colorInput">
+                <p>Change the pen color<p>
+                <input type="color" id="color" name="color">
+            </div>
+            <div>
+                <p>Change the number of squares on the Sketchpad:</p>
+                <input type="range" min="1" max="50" value="16" id="slider">
+                <p id="sliderOutput">16 x 16</p>
+            </div>
+        </div>
+        <div class="grid">
+           
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

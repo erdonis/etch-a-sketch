@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+body {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(0, 25, 51);
+   color: white;
+   font-family: Cabin Sketch;
+   font-weight: 900;
+   font-size: 20px;
+   box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    padding: 40px 120px 15px 120px;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; 
+}
+
+.colorInput {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 20px 0 0 0;
+    font-size: 80px;
+}
+
+#clear {
+    height: 40px;
+    width: 100px;
+    background-color: turquoise;
+    border: solid 3px white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Cabin Sketch;
+    
+}
+
+.grid {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    border: 1px black solid;
+    background-color: white;
+}
+
+
+
+.square {
+   border: 1px solid rgba(0, 0, 0, 0.041);
+   display: flex;
+   box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.buttons button {
+    background-color: turquoise;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 65px;
+    height: 65px;
+}
+
+.buttons img {
+    width: 35px;
+    height: 35px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+
+
